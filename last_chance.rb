@@ -16,8 +16,8 @@ KEY = ARGV[0] # artist, title, some other stuff
 VALUE = CGI.escape(ARGV[1])
 
 # authentication
-USERNAME = "testuser1000"
-PASSWORD = "6780237a0c54951693513efb491f7aae"
+USERNAME = ""
+PASSWORD = ""
 CLIENT_VERSION = "1.5.3.45507"
 SET_AUTH = "/radio/handshake.php?version=#{CLIENT_VERSION}&platform=mac&platformversion=Mac%20OS%20X%2010.5&username=#{USERNAME}&passwordmd5=#{PASSWORD}&language=en"
 # web services hostnames
